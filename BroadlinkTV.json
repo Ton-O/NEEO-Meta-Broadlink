@@ -27,8 +27,8 @@
       "type":"TV",
    "version": 1,
       "variables":{
-         "BroadlinkLearn":"http://127.0.0.1:5000/rcve?host=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\" \")[3].split(\" \")[0] DYNAMIK_INST_END&&type=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\"  \")[1].split(\" \")[0] DYNAMIK_INST_END&&mac=DYNAMIK_INST_START DYNAMIK & \"$Result& \".split(& \" & \")[5] DYNAMIK_INST_END",
-         "BroadlinkSend":"http://127.0.0.1:5000/xmit?host=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\" \")[3].split(\" \")[0] DYNAMIK_INST_END&&type=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\"  \")[1].split(\" \")[0] DYNAMIK_INST_END&&mac=DYNAMIK_INST_START DYNAMIK & \"$Result& \".split(& \" & \")[5] DYNAMIK_INST_END"
+         "BroadlinkLearn":"http://127.0.0.1:5384/rcve?host=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\" \")[3].split(\" \")[0] DYNAMIK_INST_END&&type=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\"  \")[1].split(\" \")[0] DYNAMIK_INST_END&&mac=DYNAMIK_INST_START DYNAMIK & \"$Result& \".split(& \" & \")[5] DYNAMIK_INST_END",
+         "BroadlinkSend":"http://127.0.0.1:5384/xmit?host=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\" \")[3].split(\" \")[0] DYNAMIK_INST_END&&type=DYNAMIK_INST_START DYNAMIK \"$Result\".split(\"  \")[1].split(\" \")[0] DYNAMIK_INST_END&&mac=DYNAMIK_INST_START DYNAMIK & \"$Result& \".split(& \" & \")[5] DYNAMIK_INST_END"
       },
       "buttons":{
          "BACK":{"label":"","type":"http-get", "command":"$BroadlinkSendsendir,1:1,1,36000,1,1,96,32,16,32,16,16,16,16,16,32,32,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,32,32,16,16,32,16,16,16,16,16,16,16,16,3037"},
